@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul{
+	list-style-type: none;
+}
+</style>
+
+</head>
+
+<body>
+
+1. QuestionWhich of the following is a non metal that remains liquid at room temperature?
+<ul>
+<li><input type="radio" name="q1" value="Wrong Answer">Phosphorous</li>
+<li><input type="radio" name="q1" value="Correct Answer">Bromine</li>
+<li><input type="radio" name="q1" value="Wrong Answer">Chlorine</li>
+<li><input type="radio" name="q1" value="Wrong Answer">Helium</li>
+</ul>
+
+2. Brass gets discoloured in air because of the presence of which of the following gases in air?
+<ul>
+<li><input type="radio" name="q1" value="Wrong Answer">Oxygen</li>
+<li><input type="radio" name="q1" value="Correct Answer">Hydrogen sulphide</li>
+<li><input type="radio" name="q1" value="Wrong Answer">Carbon dioxide</li>
+<li><input type="radio" name="q1" value="Wrong Answer">Nitrogen</li>
+</ul>
+
+3. Chlorophyll is a naturally occurring chelate compound in which central metal is
+<ul>
+<li><input type="radio" name="q1" value="Wrong Answer">copper</li>
+<li><input type="radio" name="q1" value="Correct Answer">magnesium</li>
+<li><input type="radio" name="q1" value="Wrong Answer">iron</li>
+<li><input type="radio" name="q1" value="Wrong Answer">calcium</li>
+</ul>
+
+<script>
+	var radios = document.querySelectorAll('input[type=radio][name="q1"]');
+    	radios.forEach(radio => radio.addEventListener('change', () => 	alert(radio.value)));
+</script>
+</body>
+</html>
